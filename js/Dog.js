@@ -14,9 +14,28 @@ export class Dog {
         this.furColor = kailioSpalva;
         this.age = amzius;
         this.legsCount = 4;
+        this.hasTail = true;
         // console.log(vardas);
 
+    } 
+
+    birthday() {
+        this.age++;
+        return `Suns ${this.age} gimtadienis 🥳`;
     }
+
+    lostLeg() {
+        if (this.legsCount === 0) {
+            return 'Suo jau ir taip bekojis! '
+        }
+        // cia panasiai kai funkcija, ji parametrus mato tik savo ribose. Norint kad pamatytu ir teisingai skaiciuotu kojas prirasome. this metodo.
+        this.legsCount--;
+        return `Suo prarado koja 😢`;
+    }
+
+
+
+
    // o cia ką šuo gali daryti. Kuriame savo metodus.
     hi() {
         return 'Suo  sako au au!!';
@@ -30,5 +49,16 @@ export class Dog {
     manyBones(count) {
         return `Many bones: ${'🦴'.repeat(count)}`;
     }
+    addNumber(a, b) {
+        if (a+b < 0) {
+            return 'Suo liudnas... negali suskaiciuoti negatyvaus kaulu skaiciaus.'
+        }
+        if (a + b === 0) {
+            return 'Suns reakcija 👀';
+        }
+        return `Suo suskaiciavo ${a} + ${b} = ${'🦴'.repeat(a + b)}.`;
+    }
+
+
 }
 
