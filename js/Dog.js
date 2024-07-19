@@ -37,12 +37,15 @@ export class Dog {
 
 
    // o cia ką šuo gali daryti. Kuriame savo metodus.
+
     hi() {
         return 'Suo  sako au au!!';
     }
     think() {
         return 'Suo  galvoja: 🦴🦴🦴';
     }
+
+    // nedirba su constructor esama info, dirba su gauta info, lyg paprasta fun-cija. 
     addNumbers(a, b) {
         return `Suo suskaiciavo ${a} + ${b} = ${a + b}.`;
     }
