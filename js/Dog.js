@@ -7,9 +7,9 @@
 
 // export class Dog() skliaustai NESIRAŠO.
 export class Dog {
-// constructor() - yra metodas. Ir tie skliaustai yra parametrų blokas, per kurį gausiu informaciją.
-// cia apsiraseme ką mes galime žinoti apie šunį
-   constructor(vardas, kailioSpalva, amzius) {
+    // constructor() - yra metodas. Ir tie skliaustai yra parametrų blokas, per kurį gausiu informaciją.
+    // cia apsiraseme ką mes galime žinoti apie šunį
+    constructor(vardas, kailioSpalva, amzius) {
         this.name = vardas;
         this.furColor = kailioSpalva;
         this.age = amzius;
@@ -17,7 +17,7 @@ export class Dog {
         this.hasTail = true;
         // console.log(vardas);
 
-    } 
+    }
 
     birthday() {
         this.age++;
@@ -36,7 +36,7 @@ export class Dog {
 
 
 
-   // o cia ką šuo gali daryti. Kuriame savo metodus.
+    // o cia ką šuo gali daryti. Kuriame savo metodus.
 
     hi() {
         return 'Suo  sako au au!!';
@@ -53,7 +53,7 @@ export class Dog {
         return `Many bones: ${'🦴'.repeat(count)}`;
     }
     addNumber(a, b) {
-        if (a+b < 0) {
+        if (a + b < 0) {
             return 'Suo liudnas... negali suskaiciuoti negatyvaus kaulu skaiciaus.'
         }
         if (a + b === 0) {
@@ -61,7 +61,6 @@ export class Dog {
         }
         return `Suo suskaiciavo ${a} + ${b} = ${'🦴'.repeat(a + b)}.`;
     }
-
-
 }
+
 
