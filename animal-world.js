@@ -22,3 +22,18 @@ console.log(rainis.voice());
 
 const tom = new Cat('Tom', 'animacinis');
 console.log(tom.voice());
+
+const nemo = new GoldenFish('Nemo');
+console.log(nemo);
+console.log(nemo.intro());
+console.log(nemo.voice());
+
+const zydrius = new GoldenFish('Zydrius');
+console.log(zydrius);
+console.log(zydrius.intro());
+console.log(zydrius.voice());
+
+const bedantis = new Shark('Bedantis');
+console.log(bedantis);
+console.log(bedantis.intro());
+console.log(bedantis.voice());
