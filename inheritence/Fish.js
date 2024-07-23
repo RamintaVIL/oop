@@ -9,7 +9,7 @@ export class Fish {
     }
 
     intro() {
-        return `Hello, I'm a ${this.animalType} and may name is ${this.name}.`
+        return `Hello, I'm a ${this.animalType} and my name is ${this.name}.`
     }
 
     voice() {

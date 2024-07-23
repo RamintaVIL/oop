@@ -3,7 +3,7 @@ import { Cat } from "./inheritence/Cat.js";
 import { GoldenFish } from "./inheritence/GoldenFish.js";
 import { Shark } from "./inheritence/Shark.js";
 import { Mouse } from "./inheritence/Mouse.js";
-
+import { Dolphine } from "./inheritence/Dolphin.js";
 
 console.clear();
 
@@ -46,4 +46,8 @@ const jerry = new Mouse('Jerry');
 // console.log(jerry);
 console.log(jerry.intro());
 console.log(jerry.voice());
+
+const vilis = new Dolphine('Laukinis Vilis');
+console.log(vilis.intro());
+console.log(vilis.voice());
 
