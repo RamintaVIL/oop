@@ -4,6 +4,9 @@ import { GoldenFish } from "./inheritence/GoldenFish.js";
 import { Shark } from "./inheritence/Shark.js";
 import { Mouse } from "./inheritence/Mouse.js";
 import { Dolphine } from "./inheritence/Dolphin.js";
+import { Eagle } from "./inheritence/Eagle.js";
+import { Flamingo } from "./inheritence/Flamingo.js";
+import { Pigeon } from "./inheritence/Pigeon.js";
 
 console.clear();
 
@@ -51,3 +54,14 @@ const vilis = new Dolphine('Laukinis Vilis');
 console.log(vilis.intro());
 console.log(vilis.voice());
 
+const karalius = new Eagle('Karalius');
+console.log(karalius.intro());
+console.log(karalius.voice());
+
+const fabijus = new Flamingo('Fabijus');
+console.log(fabijus.intro());
+console.log(fabijus.voice());
+
+const trupinys = new Pigeon('Trapus');
+console.log(trupinys.intro());
+console.log(trupinys.voice());
