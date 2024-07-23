@@ -22,6 +22,8 @@ const brisius = new Dog('Brisius', 'taksas');
 console.log(brisius.intro());
 console.log(brisius.voice());
 
+console.log('--------------------------------');
+
 const rainis = new Cat('Rainis', 'bengalu');
 // console.log(rainis);
 console.log(rainis.intro());
@@ -29,6 +31,8 @@ console.log(rainis.voice());
 
 const tom = new Cat('Tom', 'animacinis');
 console.log(tom.voice());
+
+console.log('--------------------------------');
 
 const nemo = new GoldenFish('Nemo');
 // console.log(nemo);
@@ -40,27 +44,39 @@ const zydrius = new GoldenFish('Zydrius');
 console.log(zydrius.intro());
 console.log(zydrius.voice());
 
+console.log('--------------------------------');
+
 const bedantis = new Shark('Bedantis');
 // console.log(bedantis);
 console.log(bedantis.intro());
 console.log(bedantis.voice());
+
+console.log('--------------------------------');
 
 const jerry = new Mouse('Jerry');
 // console.log(jerry);
 console.log(jerry.intro());
 console.log(jerry.voice());
 
+console.log('--------------------------------');
+
 const vilis = new Dolphine('Laukinis Vilis');
 console.log(vilis.intro());
 console.log(vilis.voice());
+
+console.log('--------------------------------');
 
 const karalius = new Eagle('Karalius');
 console.log(karalius.intro());
 console.log(karalius.voice());
 
+console.log('--------------------------------');
+
 const fabijus = new Flamingo('Fabijus');
 console.log(fabijus.intro());
 console.log(fabijus.voice());
+
+console.log('--------------------------------');
 
 const trupinys = new Pigeon('Trapus');
 console.log(trupinys.intro());
