@@ -11,11 +11,15 @@ export class Pet {
     }
 
     intro() {
-        return `Hello, I'm a ${this.animalType} and may name is ${this.name}.`
+        return `Hello, I'm a ${this.animalType} and my name is ${this.name}.`
     }
 
     voice() {
-        return `${this.name}: ${this.sound}!! ${this.emoji.repeat(this.emojiCount)} - ${this.bread}`
+        if (this.animalType === this.bread) {
+            return `${this.name}: ${this.sound}!! ${this.emoji.repeat(this.emojiCount)} - ${this.bread}`
+        } else {
+            return `${this.name}: ${this.sound}!! ${this.emoji.repeat(this.emojiCount)}`
+        }
     }
 }
 // Sekantis zingsnis Dog ir Cat faile viska istrinti, Dog faile uzsikomentavau, kad bet kada matyciau kaip buvo. 

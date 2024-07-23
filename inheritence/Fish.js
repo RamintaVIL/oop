@@ -13,6 +13,6 @@ export class Fish {
     }
 
     voice() {
-        return `${this.name}: ${this.sound}!! ${this.emoji.repeat(this.emojiCount)} - ${this.bread}`
+        return `${this.name}: ${this.sound}!! ${this.emoji.repeat(this.emojiCount)}`
     }
 }
