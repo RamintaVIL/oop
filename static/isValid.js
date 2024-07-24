@@ -46,6 +46,7 @@ export class IsValid {
         if (IsValid.containsAllowedSymbols(str, abc)) {
             return false;
         }
+        return true;
     }
 
     // pirminis varinatas, jis yra ilgesnis, pasidereme auksciau sablona, kuri taikome.    
@@ -76,6 +77,7 @@ export class IsValid {
         if (IsValid.containsAllowedSymbols(str, abc)) {
             return false;
         }
+        return true;
     }
 
     static phone(str) {

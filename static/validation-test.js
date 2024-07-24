@@ -9,7 +9,7 @@ console.log(IsValid.username('Česnakas'));
 
 const emailValidationResult = IsValid.email('');
 if (emailValidationResult === true) {
-    return 'OK';
+    // return 'ok';
 } else {
-    // return string
+    // return string;
 }
